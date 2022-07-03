@@ -1,11 +1,5 @@
 import styled from "styled-components";
-import { block, widthHeight, font, flex } from "../../helpers/mixins";
-
-export const Friends = styled.ul`
-	width: calc(100% / 3);
-	${block};
-	margin-bottom: ${(props) => props.theme.spacing(8)};
-`;
+import { widthHeight, font, flex } from "../../../helpers/mixins";
 
 export const FriendItem = styled.li`
 	${flex({ jc: "flex-start" })};

@@ -1,13 +1,13 @@
-import { Profile } from "./Profile/Profile";
-import user from "../data/user.json";
-import { Statistics } from "./Statistics/Statistics";
-import { data } from "../data/data";
-import { FriendList } from "./FriendList/FriendList";
-import friends from "../data/friends.json";
-import { TransactionsHistory } from "./TransactionHistory/TransactionsHistory";
-import transactions from "../data/transactions.json";
-import { GlobalStyle } from "../constants/GlobalStyles";
-import { Container } from "./AppStyled";
+import { Profile } from "./components/Profile/Profile";
+import user from "./data/user.json";
+import { Statistics } from "./components/Statistics/Statistics";
+import { data } from "./data/data";
+import { FriendList } from "./components/FriendList/FriendList";
+import friends from "./data/friends.json";
+import { TransactionsHistory } from "./components/TransactionsHistory/TransactionsHistory";
+import transactions from "./data/transactions.json";
+import { GlobalStyle } from "./constants/GlobalStyles";
+import { Container } from "./components/Container";
 import PropTypes from "prop-types";
 
 export const App = () => {

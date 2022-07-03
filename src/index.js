@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "../node_modules/modern-normalize/modern-normalize.css";
-import { App } from "./components/App";
+import { App } from "./App";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./constants/theme";
 

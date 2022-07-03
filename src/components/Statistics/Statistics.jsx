@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Items } from "../Statistics/Items";
+import { Items } from "./Items/Items";
 import {
 	Section,
 	Card,

@@ -5,7 +5,7 @@ import {
 	Online,
 	Avatar,
 	UserName,
-} from "../FriendList/FriendsStyled";
+} from "./FriendItemStyled";
 
 export const FriendListItem = ({ friends }) => {
 	return friends.map((friend) => (
