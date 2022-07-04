@@ -13,18 +13,12 @@ export const FriendItem = styled.li`
 	}
 `;
 
-const Status = styled.span`
+export const Status = styled.span`
 	${widthHeight(12, 12)};
 	border-radius: 50%;
 	margin-right: ${(props) => props.theme.spacing(6)};
-`;
-
-export const Online = styled(Status)`
-	background-color: ${(props) => props.theme.colors.green};
-`;
-
-export const Offline = styled(Status)`
-	background-color: ${(props) => props.theme.colors.red};
+	background-color: ${( props ) =>
+    props.isOnline ? props.theme.colors.green : props.theme.colors.red};
 `;
 
 export const Avatar = styled.img`

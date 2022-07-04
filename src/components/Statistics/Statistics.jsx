@@ -5,7 +5,7 @@ import {
 	Card,
 	Title,
 	StatsList,
-} from "../Statistics/StatisticsStyled";
+} from "./Statistics.Styled";
 export const Statistics = ({ title, stats }) => {
 	return (
 		<Section>
