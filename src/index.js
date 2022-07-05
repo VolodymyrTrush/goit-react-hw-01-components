@@ -4,7 +4,7 @@ import "./index.css";
 import "../node_modules/modern-normalize/modern-normalize.css";
 import { App } from "./App";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./constants/theme";
+import { theme } from "./style/theme";
 
 ReactDOM.render(
 	<React.StrictMode>

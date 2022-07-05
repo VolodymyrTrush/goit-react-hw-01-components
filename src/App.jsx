@@ -6,7 +6,7 @@ import { FriendList } from "./components/FriendList/FriendList";
 import friends from "./data/friends.json";
 import { TransactionsHistory } from "./components/TransactionsHistory/TransactionsHistory";
 import transactions from "./data/transactions.json";
-import { GlobalStyle } from "./constants/GlobalStyles";
+import { GlobalStyle } from "./style/GlobalStyles";
 import { Container } from "./components/Container";
 import PropTypes from "prop-types";
 
