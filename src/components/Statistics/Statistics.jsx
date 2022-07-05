@@ -6,6 +6,7 @@ import {
 	Title,
 	StatsList,
 } from "./Statistics.Styled";
+
 export const Statistics = ({ title, stats }) => {
 	return (
 		<Section>

@@ -2,32 +2,6 @@ import styled from "styled-components";
 import { font, flex } from "../../../helpers/mixins";
 import { generateDarkColorHex } from "../../../helpers/randomColor";
 
-// export const Section = styled.section`
-// 	padding: ${(props) => props.theme.spacing(10)} 0;
-// `;
-
-// export const Card = styled.div`
-// 	${widthHeight(500)};
-// 	${block};
-// 	text-align: center;
-// 	background-color: ${(props) => props.theme.colors.white};
-// 	border-radius: ${(props) => props.theme.spacing(1)};
-// 	box-shadow: ${(props) => props.theme.colors.boxShadow};
-// 	overflow: hidden;
-// `;
-
-// export const Title = styled.h2`
-// 	${font({ fs: 24, fw: 600, lh: 28 })};
-// 	text-transform: uppercase;
-// 	color: ${(props) => props.theme.colors.primaryText};
-// 	padding: ${(props) => props.theme.spacing(6)} 0;
-// `;
-
-// export const StatsList = styled.ul`
-// 	${flex({ jc: "space-between" })};
-// 	${widthHeight()};
-// `;
-
 export const StatsItem = styled.li`
 	${flex};
 	flex-direction: column;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { block, widthHeight, font, flex } from "../../helpers/mixins";
-// import { generateDarkColorHex } from "../../helpers/randomColor";
+
 
 export const Section = styled.section`
 	padding: ${(props) => props.theme.spacing(10)} 0;
